@@ -7,7 +7,7 @@ from typing import List, Optional
 
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from dotenv import load_dotenv
-from google import genai
+import google.generativeai as genai
 from pydantic import BaseModel
 
 import firebase_admin
